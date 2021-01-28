@@ -36,11 +36,11 @@
         <!-- Bootstrap theme -->
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.rtl.min.css"/>
         <!-- reCaptchap -->
-        <script src="https://www.google.com/recaptcha/api.js?render=6LfdzxAaAAAAAMUf-D9pXxcT-TsKfZyWoMe0stUT"></script>
+        <script src="https://www.google.com/recaptcha/api.js?render=clavedesitio"></script>
         <script src="./js/funcionconfirm.js"></script>
         <script>
         grecaptcha.ready(function () {
-            grecaptcha.execute('6LfdzxAaAAAAAMUf-D9pXxcT-TsKfZyWoMe0stUT', { action: 'contact' }).then(function (token) {
+            grecaptcha.execute('clavedesitio', { action: 'contact' }).then(function (token) {
                 var recaptchaResponse = document.getElementById('recaptchaResponse');
                 recaptchaResponse.value = token;
             });
@@ -123,7 +123,7 @@
 
                         // Build POST request:
                         $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-                        $recaptcha_secret = '6LfdzxAaAAAAAJp1qRNgPy5sQCoXOFvYEXkZbeJc';
+                        $recaptcha_secret = 'clavesecreta';
                         $recaptcha_response = $_POST['recaptcha_response'];
 
                         // Make and decode POST request:

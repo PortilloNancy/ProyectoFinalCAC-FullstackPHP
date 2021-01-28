@@ -25,7 +25,7 @@
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.rtl.min.css"/>
 
         <!-- reCaptchap -->
-        <script src="https://www.google.com/recaptcha/api.js?render=6LfdzxAaAAAAAMUf-D9pXxcT-TsKfZyWoMe0stUT"></script>
+        <script src="https://www.google.com/recaptcha/api.js?render=clavedesitio"></script>
 
         <style>.ajs-message.ajs-custom { color: #31708f !important;  background-color: #d9edf7!important;  border-color: #31708f!important;}</style>
     </head>

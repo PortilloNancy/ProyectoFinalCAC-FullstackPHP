@@ -19,7 +19,7 @@
 
         <script>
         grecaptcha.ready(function () {
-            grecaptcha.execute('6LfdzxAaAAAAAMUf-D9pXxcT-TsKfZyWoMe0stUT', { action: 'contact' }).then(function (token) {
+            grecaptcha.execute('clavedesitio', { action: 'contact' }).then(function (token) {
                 var recaptchaResponse = document.getElementById('recaptchaResponse');
                 recaptchaResponse.value = token;
             });
@@ -44,7 +44,7 @@
 
                         // Build POST request:
                         $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-                        $recaptcha_secret = '6LfdzxAaAAAAAJp1qRNgPy5sQCoXOFvYEXkZbeJc';
+                        $recaptcha_secret = 'clavesecreta';
                         $recaptcha_response = $_POST['recaptcha_response'];
 
                         // Make and decode POST request:
