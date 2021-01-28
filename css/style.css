@@ -1,0 +1,31 @@
+.tituloPrincipal {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+   
+@media (min-width: 768px) {
+    .phone {
+        display: none;
+    }
+    .alturacarrousel {
+        height: 100vh;
+    }
+    .alturacardprincipal {
+        height: 50vh;
+    }
+}
+ @media (max-width: 768px) {
+    .phone1 {
+        display: none;
+    }
+    p {
+        font-size: large;
+    }
+    .alturacarrousel {
+        height: 50vh;
+    }
+    .anchoimgnosotros {
+        width: 60vw;
+    }
+    
+}
